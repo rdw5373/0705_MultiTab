@@ -16,14 +16,14 @@ div#wrap {
 }
 
 div#contents {
-    border: 4px solid #08f;
+    /*border: 4px solid #08f;*/
 }
 
 #contents>div {
     width: 400px;
     height: 200px;
     padding: 6px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: 6px;
 }
 
@@ -43,6 +43,51 @@ div.tabContents {
     padding: 4px;
     border: 1px solid #aaa;
 }
+
+div#notice table {
+    width: 100%;
+    border-collapse: collapse; /*td구간 연결:테두리선이 구분되는것을
+                                               붕괴하여 1줄로 나타나게한다.*/
+}
+div#notice td {
+    line-height: 36px;
+}
+
+div#notice td:first-child {
+    padding: 0 20px 0 10px;
+}
+
+div#notice tr:nth-child(2n-1) td {
+    background-color: #eee;
+}
+
+div#gallery button.tabBtn {
+    border-bottom: 1px solid #aaa;
+    background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
